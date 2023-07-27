@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="いきましょう!" textAlignment="center" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="GJd-Yh-RWb">
+                                <rect key="frame" x="86" y="219.66666666666666" width="229" height="42.999999999999972"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="36"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="IKIMASHO!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uUu-Ui-IeZ">
+                                <rect key="frame" x="104" y="175" width="193" height="32.666666666666657"/>
+                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="25"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="V5N-qm-7Br">
+                                <rect key="frame" x="41" y="277.66666666666669" width="319" height="319.00000000000006"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="V5N-qm-7Br" secondAttribute="height" multiplier="1:1" id="kTq-A0-3SH"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Votre programme de voyage en main." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iAH-Up-6uB">
+                                <rect key="frame" x="24" y="611.66666666666663" width="353" height="65.333333333333371"/>
+                                <fontDescription key="fontDescription" name="Futura-MediumItalic" family="Futura" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Bcu-3y-fUS"/>
+                        <color key="backgroundColor" red="0.99215686319999996" green="0.98039215800000001" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="trailing" secondItem="V5N-qm-7Br" secondAttribute="trailing" constant="33" id="5ff-kp-pzx"/>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="trailing" secondItem="iAH-Up-6uB" secondAttribute="trailing" constant="16" id="7u1-21-DUK"/>
+                            <constraint firstItem="uUu-Ui-IeZ" firstAttribute="top" secondItem="Bcu-3y-fUS" secondAttribute="top" constant="116" id="9pV-yX-35l"/>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="trailing" secondItem="uUu-Ui-IeZ" secondAttribute="trailing" constant="96" id="IvI-dg-h64"/>
+                            <constraint firstItem="V5N-qm-7Br" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" constant="41" id="LTk-bK-Pv8"/>
+                            <constraint firstItem="iAH-Up-6uB" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" constant="24" id="T1A-FX-og3"/>
+                            <constraint firstItem="GJd-Yh-RWb" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" constant="86" id="etd-fU-HLf"/>
+                            <constraint firstItem="V5N-qm-7Br" firstAttribute="top" secondItem="GJd-Yh-RWb" secondAttribute="bottom" constant="15" id="hfT-Kj-dpa"/>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="trailing" secondItem="GJd-Yh-RWb" secondAttribute="trailing" constant="78" id="jiB-si-6Mq"/>
+                            <constraint firstItem="iAH-Up-6uB" firstAttribute="top" secondItem="V5N-qm-7Br" secondAttribute="bottom" constant="15" id="l1Y-51-Cid"/>
+                            <constraint firstItem="uUu-Ui-IeZ" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" constant="104" id="qp0-xB-ylJ"/>
+                            <constraint firstItem="GJd-Yh-RWb" firstAttribute="top" secondItem="uUu-Ui-IeZ" secondAttribute="bottom" constant="12" id="tGL-nN-hnl"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.671755725190835" y="374.64788732394368"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="logo" width="1024" height="1024"/>
+    </resources>
+</document>

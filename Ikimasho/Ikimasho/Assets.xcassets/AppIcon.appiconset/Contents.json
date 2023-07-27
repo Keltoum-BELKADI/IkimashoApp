@@ -1,0 +1,14 @@
+{
+  "images" : [
+    {
+      "filename" : "Capture d’écran 2023-07-25 à 22.56.40-1024.png",
+      "idiom" : "universal",
+      "platform" : "ios",
+      "size" : "1024x1024"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
