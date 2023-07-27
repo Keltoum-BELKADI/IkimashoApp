@@ -1,0 +1,2 @@
+# IkimashoApp
+Simple App swiftUI 
