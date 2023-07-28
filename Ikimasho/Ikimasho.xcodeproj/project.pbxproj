@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B987DC1D2A73C0660019A93E /* Destination+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B987DC192A73C0660019A93E /* Destination+CoreDataClass.swift */; };
+		B987DC1E2A73C0660019A93E /* Destination+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B987DC1A2A73C0660019A93E /* Destination+CoreDataProperties.swift */; };
+		B987DC1F2A73C0660019A93E /* Travel+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B987DC1B2A73C0660019A93E /* Travel+CoreDataClass.swift */; };
+		B987DC202A73C0660019A93E /* Travel+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B987DC1C2A73C0660019A93E /* Travel+CoreDataProperties.swift */; };
+		B987DC222A73CBB10019A93E /* TravelDetailsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B987DC212A73CBB10019A93E /* TravelDetailsCell.swift */; };
 		B9BEE5CD2A72FD5B008B0DEC /* IkimashoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BEE5CC2A72FD5B008B0DEC /* IkimashoApp.swift */; };
 		B9BEE5CF2A72FD5B008B0DEC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BEE5CE2A72FD5B008B0DEC /* ContentView.swift */; };
 		B9BEE5D12A72FD5C008B0DEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9BEE5D02A72FD5C008B0DEC /* Assets.xcassets */; };
@@ -18,15 +23,22 @@
 		B9BEE5E62A72FE2B008B0DEC /* HomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BEE5E52A72FE2B008B0DEC /* HomeScreenView.swift */; };
 		B9BEE5E92A72FE45008B0DEC /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = B9BEE5E82A72FE45008B0DEC /* data.json */; };
 		B9BEE5EB2A72FE61008B0DEC /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9BEE5EA2A72FE61008B0DEC /* Launch Screen.storyboard */; };
-		B9BEE5EF2A73018E008B0DEC /* Representables in Resources */ = {isa = PBXBuildFile; fileRef = B9BEE5EE2A73018E008B0DEC /* Representables */; };
 		B9BEE5F12A73019C008B0DEC /* MyPersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BEE5F02A73019C008B0DEC /* MyPersistenceController.swift */; };
 		B9BEE5F72A73049A008B0DEC /* DestinationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BEE5F62A73049A008B0DEC /* DestinationView.swift */; };
 		B9BEE5FA2A7307DB008B0DEC /* AddNewDestinationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BEE5F92A7307DB008B0DEC /* AddNewDestinationView.swift */; };
 		B9BEE5FD2A7309A8008B0DEC /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BEE5FC2A7309A8008B0DEC /* TextFieldView.swift */; };
-		B9BEE5FF2A73155A008B0DEC /* TravelsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BEE5FE2A73155A008B0DEC /* TravelsView.swift */; };
+		B9BEE6022A731BA6008B0DEC /* TravelDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BEE6012A731BA6008B0DEC /* TravelDetailsView.swift */; };
+		B9BEE6062A732014008B0DEC /* AddNewTravelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BEE6052A732014008B0DEC /* AddNewTravelView.swift */; };
+		B9BEE60A2A732DD7008B0DEC /* PHPickerCoordinator .swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BEE6082A732DD7008B0DEC /* PHPickerCoordinator .swift */; };
+		B9BEE60B2A732DD7008B0DEC /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BEE6092A732DD7008B0DEC /* ImagePickerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B987DC192A73C0660019A93E /* Destination+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Destination+CoreDataClass.swift"; sourceTree = "<group>"; };
+		B987DC1A2A73C0660019A93E /* Destination+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Destination+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		B987DC1B2A73C0660019A93E /* Travel+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Travel+CoreDataClass.swift"; sourceTree = "<group>"; };
+		B987DC1C2A73C0660019A93E /* Travel+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Travel+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		B987DC212A73CBB10019A93E /* TravelDetailsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelDetailsCell.swift; sourceTree = "<group>"; };
 		B9BEE5C92A72FD5B008B0DEC /* Ikimasho.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ikimasho.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9BEE5CC2A72FD5B008B0DEC /* IkimashoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IkimashoApp.swift; sourceTree = "<group>"; };
 		B9BEE5CE2A72FD5B008B0DEC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -38,12 +50,14 @@
 		B9BEE5E52A72FE2B008B0DEC /* HomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenView.swift; sourceTree = "<group>"; };
 		B9BEE5E82A72FE45008B0DEC /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 		B9BEE5EA2A72FE61008B0DEC /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
-		B9BEE5EE2A73018E008B0DEC /* Representables */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Representables; sourceTree = "<group>"; };
 		B9BEE5F02A73019C008B0DEC /* MyPersistenceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPersistenceController.swift; sourceTree = "<group>"; };
 		B9BEE5F62A73049A008B0DEC /* DestinationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationView.swift; sourceTree = "<group>"; };
 		B9BEE5F92A7307DB008B0DEC /* AddNewDestinationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewDestinationView.swift; sourceTree = "<group>"; };
 		B9BEE5FC2A7309A8008B0DEC /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
-		B9BEE5FE2A73155A008B0DEC /* TravelsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelsView.swift; sourceTree = "<group>"; };
+		B9BEE6012A731BA6008B0DEC /* TravelDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelDetailsView.swift; sourceTree = "<group>"; };
+		B9BEE6052A732014008B0DEC /* AddNewTravelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewTravelView.swift; sourceTree = "<group>"; };
+		B9BEE6082A732DD7008B0DEC /* PHPickerCoordinator .swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PHPickerCoordinator .swift"; sourceTree = "<group>"; };
+		B9BEE6092A732DD7008B0DEC /* ImagePickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePickerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +94,6 @@
 			children = (
 				B9BEE5F32A7301CA008B0DEC /* Legacy */,
 				B9BEE5F22A7301B4008B0DEC /* PersistenceFIles */,
-				B9BEE5EE2A73018E008B0DEC /* Representables */,
 				B9BEE5EC2A73014A008B0DEC /* Scene */,
 				B9BEE5D02A72FD5C008B0DEC /* Assets.xcassets */,
 				B9BEE5D22A72FD5C008B0DEC /* Preview Content */,
@@ -139,8 +152,14 @@
 		B9BEE5F22A7301B4008B0DEC /* PersistenceFIles */ = {
 			isa = PBXGroup;
 			children = (
-				B9BEE5D72A72FD5C008B0DEC /* Ikimasho.xcdatamodeld */,
 				B9BEE5F02A73019C008B0DEC /* MyPersistenceController.swift */,
+				B9BEE5D72A72FD5C008B0DEC /* Ikimasho.xcdatamodeld */,
+				B987DC192A73C0660019A93E /* Destination+CoreDataClass.swift */,
+				B987DC1A2A73C0660019A93E /* Destination+CoreDataProperties.swift */,
+				B987DC1B2A73C0660019A93E /* Travel+CoreDataClass.swift */,
+				B987DC1C2A73C0660019A93E /* Travel+CoreDataProperties.swift */,
+				B9BEE60C2A733B23008B0DEC /* Extensions */,
+				B9BEE6072A732DC9008B0DEC /* Representable */,
 			);
 			path = PersistenceFIles;
 			sourceTree = "<group>";
@@ -173,6 +192,7 @@
 			isa = PBXGroup;
 			children = (
 				B9BEE5F92A7307DB008B0DEC /* AddNewDestinationView.swift */,
+				B9BEE6052A732014008B0DEC /* AddNewTravelView.swift */,
 			);
 			path = Action;
 			sourceTree = "<group>";
@@ -188,9 +208,26 @@
 		B9BEE6002A7315E4008B0DEC /* Travels */ = {
 			isa = PBXGroup;
 			children = (
-				B9BEE5FE2A73155A008B0DEC /* TravelsView.swift */,
+				B9BEE6012A731BA6008B0DEC /* TravelDetailsView.swift */,
+				B987DC212A73CBB10019A93E /* TravelDetailsCell.swift */,
 			);
 			path = Travels;
+			sourceTree = "<group>";
+		};
+		B9BEE6072A732DC9008B0DEC /* Representable */ = {
+			isa = PBXGroup;
+			children = (
+				B9BEE6082A732DD7008B0DEC /* PHPickerCoordinator .swift */,
+				B9BEE6092A732DD7008B0DEC /* ImagePickerView.swift */,
+			);
+			path = Representable;
+			sourceTree = "<group>";
+		};
+		B9BEE60C2A733B23008B0DEC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +295,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B9BEE5D42A72FD5C008B0DEC /* Preview Assets.xcassets in Resources */,
-				B9BEE5EF2A73018E008B0DEC /* Representables in Resources */,
 				B9BEE5E92A72FE45008B0DEC /* data.json in Resources */,
 				B9BEE5EB2A72FE61008B0DEC /* Launch Screen.storyboard in Resources */,
 				B9BEE5D12A72FD5C008B0DEC /* Assets.xcassets in Resources */,
@@ -273,12 +309,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				B9BEE5D62A72FD5C008B0DEC /* Persistence.swift in Sources */,
-				B9BEE5FF2A73155A008B0DEC /* TravelsView.swift in Sources */,
+				B987DC222A73CBB10019A93E /* TravelDetailsCell.swift in Sources */,
+				B9BEE60A2A732DD7008B0DEC /* PHPickerCoordinator .swift in Sources */,
+				B987DC1D2A73C0660019A93E /* Destination+CoreDataClass.swift in Sources */,
 				B9BEE5F12A73019C008B0DEC /* MyPersistenceController.swift in Sources */,
+				B987DC1E2A73C0660019A93E /* Destination+CoreDataProperties.swift in Sources */,
 				B9BEE5CF2A72FD5B008B0DEC /* ContentView.swift in Sources */,
 				B9BEE5E42A72FDF2008B0DEC /* SplashscreenAnimation.swift in Sources */,
+				B9BEE6022A731BA6008B0DEC /* TravelDetailsView.swift in Sources */,
+				B987DC1F2A73C0660019A93E /* Travel+CoreDataClass.swift in Sources */,
+				B9BEE60B2A732DD7008B0DEC /* ImagePickerView.swift in Sources */,
 				B9BEE5FA2A7307DB008B0DEC /* AddNewDestinationView.swift in Sources */,
 				B9BEE5E62A72FE2B008B0DEC /* HomeScreenView.swift in Sources */,
+				B9BEE6062A732014008B0DEC /* AddNewTravelView.swift in Sources */,
+				B987DC202A73C0660019A93E /* Travel+CoreDataProperties.swift in Sources */,
 				B9BEE5FD2A7309A8008B0DEC /* TextFieldView.swift in Sources */,
 				B9BEE5D92A72FD5C008B0DEC /* Ikimasho.xcdatamodeld in Sources */,
 				B9BEE5F72A73049A008B0DEC /* DestinationView.swift in Sources */,
@@ -339,7 +383,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -393,7 +437,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -420,7 +464,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,7 +498,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

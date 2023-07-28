@@ -7,18 +7,24 @@
 import Lottie
 import SwiftUI
 
+@available(iOS 16.0, *)
 struct SplashAnimation: View {
     @State var show: Bool = false
     var body: some View {
         VStack {
             VStack {
-                Text("IKIMASHO!")
+                Text("Ikimashi!")
+                    .font(.custom("Futura", size: 20))
+                    .bold()
+                    .foregroundColor(.white)
+                Text("いきましょう!")
                     .font(.custom("Futura", size: 40))
-                    .foregroundColor(.black)
-                Text("Notre voyage")
+                    .bold()
+                    .foregroundColor(.white)
+                Text("Votre voyage")
                     .italic()
                     .font(.custom("Futura", size: 20))
-                    .foregroundColor(.black)
+                    .foregroundColor(.white)
             }
             .frame(height: show ? nil : 0)
             .opacity(show ? 1 : 0)

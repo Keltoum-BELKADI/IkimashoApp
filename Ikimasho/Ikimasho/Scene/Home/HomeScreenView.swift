@@ -8,14 +8,12 @@
 import SwiftUI
 
 struct HomeScreenView: View {
-    @Environment(\.managedObjectContext) var viewContext
-    @FetchRequest(
-        sortDescriptors: [NSSortDescriptor(keyPath: \Destination.name, ascending: true)],
-        predicate: nil,
-        animation: .default) var destinations: FetchedResults<Destination>
-    @State var destination: String = ""
-    @State var flag: String = ""
-    @State var showingAddView = false
+    @Environment(\.managedObjectContext) private var viewContext
+
+    @FetchRequest(sortDescriptors: [NSSortDescriptor(keyPath: \Destination.name, ascending: true)]) private var destinations:FetchedResults<Destination>
+
+    @State private var addDestination = false
+    @State private var addTravel = false
 
     var body: some View {
         NavigationView {
@@ -33,78 +31,67 @@ struct HomeScreenView: View {
                         .aspectRatio(contentMode: .fit)
                 }
                 .opacity(0.5)
+            List {
+                ForEach(destinations, id: \.self){ destination in
+                    NavigationLink(destination: {
+                        List{
+                            ForEach(destination.wrappedTravels, id: \.self){ travel in
+                                TravelDetailsCell(travel: travel)
 
-                List {
-                    ForEach(destinations, id: \.self) { destination in
-                        NavigationLink(destination: TravelsView()) {
-                            DestinationView(textSize: 20, destination: destination)
+                            }.listRowBackground(Capsule().fill(Color.white).padding(2))
                         }
-                    }.onDelete(perform: delete)
+                        .scrollContentBackground(.hidden)
+
+                        .background(Image("couple").resizable().ignoresSafeArea().opacity(0.5))
+                    }, label: {
+                        DestinationView(textSize: 20, destination: destination)
+                    })
+
                 }
+                .onDelete(perform: deleteDestination)
+            }
+            .scrollContentBackground(.hidden)
+            .sheet(isPresented: $addDestination){
+                AddNewDestinationView()
+            }
+            .sheet(isPresented: $addTravel){
+                AddNewTravelView()
             }
             .toolbar {
-                ToolbarItem(placement: .navigationBarTrailing) {
-                    Button {
-                        showingAddView.toggle()
-                    } label: {
-                        Label("Add word", systemImage: "plus.circle")
-                    }
-                    .foregroundColor(.green)
+                ToolbarItemGroup(placement:.navigationBarTrailing){
+                    Button(action: {
+                        addDestination.toggle()
+                    }, label: {
+                        Label("Ajouter une destination",systemImage: "plus.circle")
+                            .foregroundColor(.green)
+                    })
+                    Button(action: {
+                        addTravel.toggle()
+                    }, label: {
+                        Label("ajouter un parcours", systemImage: "note.text")
+                            .foregroundColor(.black)
+                    })
                 }
                 ToolbarItem(placement: .principal) {
-                    VStack {
-                        Text("Ikimasho!").font(.custom("Futura", size: 20))
-                        Text("les destinations").font(.custom("Futura", size: 15))
-                    }
-                }
-                ToolbarItem(placement: .navigationBarLeading) {
-                   EditButton()
-                    .foregroundColor(.red)
+                    Text("Vos destinations").font(.custom("Futura", size: 15)).bold()
                 }
             }
-            .sheet(isPresented: $showingAddView, onDismiss: {
-                add()
-            }, content: {
-                AddNewDestinationView(flag: $flag, name: $destination)
-            })
+            }
         }
-        .navigationViewStyle(.columns)
         .navigationBarBackButtonHidden(true)
     }
 
-    func resetFields() {
-        destination = ""
-        flag = ""
-    }
 
-    func add() {
-        if (destination != "" || flag != "") {
-            let newDestination = Destination(context: viewContext)
-            newDestination.name = destination
-            newDestination.flag = flag
-            saveContext()
-            resetFields()
+    private func deleteDestination(at offset:IndexSet){
+        for index in offset{
+            let destinationToDelete = destinations[index]
+            do{
+                viewContext.delete(destinationToDelete)
+                try viewContext.save()
+            }catch{
+                print("Error while deleting Department \(error.localizedDescription)")
+            }
         }
     }
 
-    func delete(offsets: IndexSet) {
-        withAnimation {
-            offsets.map { destinations[$0]}.forEach(viewContext.delete)
-            saveContext()
-        }
-    }
-
-    func saveContext() {
-        do {
-            try viewContext.save()
-        } catch {
-            print(error.localizedDescription)
-        }
-    }
-}
-
-struct HomeScreenView_Previews: PreviewProvider {
-    static var previews: some View {
-        HomeScreenView()
-    }
 }

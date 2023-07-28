@@ -9,7 +9,7 @@ import SwiftUI
 
 @main
 struct IkimashoApp: App {
-    let persistenceController = MyPersistenceController.shared
+    let persistenceController = PersistenceController.shared
 
     var body: some Scene {
         WindowGroup {

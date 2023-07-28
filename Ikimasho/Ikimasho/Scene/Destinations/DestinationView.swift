@@ -14,14 +14,15 @@ struct DestinationView: View {
 
     var body: some View {
         HStack {
-            Text(destination.flag ?? "🏴‍☠️")
-                .bold()
-                .font(.custom("Futura", size: textSize))
-            Text(destination.name ?? "Japon")
-                .bold()
-                .font(.custom("Futura", size: textSize))
-                .foregroundColor(.black)
-
+            if (destination.image != nil){
+                Image(uiImage: UIImage(data:destination.image!)!)
+                    .resizable()
+                    .clipShape(Circle())
+                    .frame(width: 60, height: 60)
+            }
+            Text(destination.name ?? "").font(.custom("Futura", size: 20)).bold()
         }
+        .frame(height: 80)
     }
+
 }
