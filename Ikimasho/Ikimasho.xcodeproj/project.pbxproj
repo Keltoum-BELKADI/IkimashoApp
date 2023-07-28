@@ -3,343 +3,385 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B987DC1D2A73C0660019A93E /* Destination+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B987DC192A73C0660019A93E /* Destination+CoreDataClass.swift */; };
-		B987DC1E2A73C0660019A93E /* Destination+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B987DC1A2A73C0660019A93E /* Destination+CoreDataProperties.swift */; };
-		B987DC1F2A73C0660019A93E /* Travel+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B987DC1B2A73C0660019A93E /* Travel+CoreDataClass.swift */; };
-		B987DC202A73C0660019A93E /* Travel+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B987DC1C2A73C0660019A93E /* Travel+CoreDataProperties.swift */; };
-		B987DC222A73CBB10019A93E /* TravelDetailsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B987DC212A73CBB10019A93E /* TravelDetailsCell.swift */; };
-		B9BEE5CD2A72FD5B008B0DEC /* IkimashoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BEE5CC2A72FD5B008B0DEC /* IkimashoApp.swift */; };
-		B9BEE5CF2A72FD5B008B0DEC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BEE5CE2A72FD5B008B0DEC /* ContentView.swift */; };
-		B9BEE5D12A72FD5C008B0DEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9BEE5D02A72FD5C008B0DEC /* Assets.xcassets */; };
-		B9BEE5D42A72FD5C008B0DEC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9BEE5D32A72FD5C008B0DEC /* Preview Assets.xcassets */; };
-		B9BEE5D62A72FD5C008B0DEC /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BEE5D52A72FD5C008B0DEC /* Persistence.swift */; };
-		B9BEE5D92A72FD5C008B0DEC /* Ikimasho.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B9BEE5D72A72FD5C008B0DEC /* Ikimasho.xcdatamodeld */; };
-		B9BEE5E12A72FDD5008B0DEC /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = B9BEE5E02A72FDD5008B0DEC /* Lottie */; };
-		B9BEE5E42A72FDF2008B0DEC /* SplashscreenAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BEE5E32A72FDF2008B0DEC /* SplashscreenAnimation.swift */; };
-		B9BEE5E62A72FE2B008B0DEC /* HomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BEE5E52A72FE2B008B0DEC /* HomeScreenView.swift */; };
-		B9BEE5E92A72FE45008B0DEC /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = B9BEE5E82A72FE45008B0DEC /* data.json */; };
-		B9BEE5EB2A72FE61008B0DEC /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9BEE5EA2A72FE61008B0DEC /* Launch Screen.storyboard */; };
-		B9BEE5F12A73019C008B0DEC /* MyPersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BEE5F02A73019C008B0DEC /* MyPersistenceController.swift */; };
-		B9BEE5F72A73049A008B0DEC /* DestinationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BEE5F62A73049A008B0DEC /* DestinationView.swift */; };
-		B9BEE5FA2A7307DB008B0DEC /* AddNewDestinationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BEE5F92A7307DB008B0DEC /* AddNewDestinationView.swift */; };
-		B9BEE5FD2A7309A8008B0DEC /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BEE5FC2A7309A8008B0DEC /* TextFieldView.swift */; };
-		B9BEE6022A731BA6008B0DEC /* TravelDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BEE6012A731BA6008B0DEC /* TravelDetailsView.swift */; };
-		B9BEE6062A732014008B0DEC /* AddNewTravelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BEE6052A732014008B0DEC /* AddNewTravelView.swift */; };
-		B9BEE60A2A732DD7008B0DEC /* PHPickerCoordinator .swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BEE6082A732DD7008B0DEC /* PHPickerCoordinator .swift */; };
-		B9BEE60B2A732DD7008B0DEC /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BEE6092A732DD7008B0DEC /* ImagePickerView.swift */; };
+		05C6AA552789D06C009FFBE8 /* Ikimasho.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 05C6AA422789D06B009FFBE8 /* Ikimasho.xcdatamodeld */; };
+		05C6AA562789D06C009FFBE8 /* Ikimasho.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 05C6AA422789D06B009FFBE8 /* Ikimasho.xcdatamodeld */; };
+		05C6AA572789D06C009FFBE8 /* Ikimasho.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C6AA442789D06B009FFBE8 /* Ikimasho.swift */; };
+		05C6AA582789D06C009FFBE8 /* Ikimasho.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C6AA442789D06B009FFBE8 /* Ikimasho.swift */; };
+		05C6AA592789D06C009FFBE8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C6AA452789D06B009FFBE8 /* ContentView.swift */; };
+		05C6AA5A2789D06C009FFBE8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C6AA452789D06B009FFBE8 /* ContentView.swift */; };
+		05C6AA5B2789D06C009FFBE8 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C6AA462789D06B009FFBE8 /* Persistence.swift */; };
+		05C6AA5C2789D06C009FFBE8 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C6AA462789D06B009FFBE8 /* Persistence.swift */; };
+		05C6AA5D2789D06C009FFBE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05C6AA472789D06C009FFBE8 /* Assets.xcassets */; };
+		05C6AA5E2789D06C009FFBE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05C6AA472789D06C009FFBE8 /* Assets.xcassets */; };
+		05C6AA682789D07A009FFBE8 /* AddDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C6AA672789D07A009FFBE8 /* AddDestination.swift */; };
+		05C6AA692789D07A009FFBE8 /* AddDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C6AA672789D07A009FFBE8 /* AddDestination.swift */; };
+		05C6AA832789D9B7009FFBE8 /* AddTravel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C6AA822789D9B7009FFBE8 /* AddTravel.swift */; };
+		05C6AA842789D9B8009FFBE8 /* AddTravel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C6AA822789D9B7009FFBE8 /* AddTravel.swift */; };
+		05C6AA862789D9FE009FFBE8 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C6AA852789D9FE009FFBE8 /* ImagePicker.swift */; };
+		05C6AA872789D9FE009FFBE8 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C6AA852789D9FE009FFBE8 /* ImagePicker.swift */; };
+		05C6AA922789EA4C009FFBE8 /* TravelDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C6AA912789EA4C009FFBE8 /* TravelDetailCell.swift */; };
+		05C6AA932789EA4C009FFBE8 /* TravelDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C6AA912789EA4C009FFBE8 /* TravelDetailCell.swift */; };
+		5E01C1627AB998356476DF3A /* Pods_Ikimasho__macOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 425AB9B9DA3F642ADA456480 /* Pods_Ikimasho__macOS_.framework */; };
+		B987DC242A73E93C0019A93E /* TravelDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B987DC232A73E93C0019A93E /* TravelDetailsView.swift */; };
+		B987DC252A73E93C0019A93E /* TravelDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B987DC232A73E93C0019A93E /* TravelDetailsView.swift */; };
+		B98F479A2A74447F00908946 /* Destination+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98F47962A74447F00908946 /* Destination+CoreDataClass.swift */; };
+		B98F479B2A74447F00908946 /* Destination+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98F47972A74447F00908946 /* Destination+CoreDataProperties.swift */; };
+		B98F479D2A7447FC00908946 /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98F479C2A7447FC00908946 /* TextFieldView.swift */; };
+		B98F47A32A745AC500908946 /* SplashscreenAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98F47A22A745AC500908946 /* SplashscreenAnimation.swift */; };
+		B98F47A52A745ACB00908946 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = B98F47A42A745ACB00908946 /* data.json */; };
+		B98F47A72A745ACF00908946 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B98F47A62A745ACF00908946 /* Launch Screen.storyboard */; };
+		B98F47A92A745BAB00908946 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98F47A82A745BAB00908946 /* WelcomeView.swift */; };
+		C91044A9467DDDC0C067F8E0 /* Pods_Ikimasho__iOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D5D45A65F38120794B6374E /* Pods_Ikimasho__iOS_.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B987DC192A73C0660019A93E /* Destination+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Destination+CoreDataClass.swift"; sourceTree = "<group>"; };
-		B987DC1A2A73C0660019A93E /* Destination+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Destination+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		B987DC1B2A73C0660019A93E /* Travel+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Travel+CoreDataClass.swift"; sourceTree = "<group>"; };
-		B987DC1C2A73C0660019A93E /* Travel+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Travel+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		B987DC212A73CBB10019A93E /* TravelDetailsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelDetailsCell.swift; sourceTree = "<group>"; };
-		B9BEE5C92A72FD5B008B0DEC /* Ikimasho.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ikimasho.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B9BEE5CC2A72FD5B008B0DEC /* IkimashoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IkimashoApp.swift; sourceTree = "<group>"; };
-		B9BEE5CE2A72FD5B008B0DEC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		B9BEE5D02A72FD5C008B0DEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B9BEE5D32A72FD5C008B0DEC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		B9BEE5D52A72FD5C008B0DEC /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		B9BEE5D82A72FD5C008B0DEC /* Ikimasho.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Ikimasho.xcdatamodel; sourceTree = "<group>"; };
-		B9BEE5E32A72FDF2008B0DEC /* SplashscreenAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashscreenAnimation.swift; sourceTree = "<group>"; };
-		B9BEE5E52A72FE2B008B0DEC /* HomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenView.swift; sourceTree = "<group>"; };
-		B9BEE5E82A72FE45008B0DEC /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
-		B9BEE5EA2A72FE61008B0DEC /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
-		B9BEE5F02A73019C008B0DEC /* MyPersistenceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPersistenceController.swift; sourceTree = "<group>"; };
-		B9BEE5F62A73049A008B0DEC /* DestinationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationView.swift; sourceTree = "<group>"; };
-		B9BEE5F92A7307DB008B0DEC /* AddNewDestinationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewDestinationView.swift; sourceTree = "<group>"; };
-		B9BEE5FC2A7309A8008B0DEC /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
-		B9BEE6012A731BA6008B0DEC /* TravelDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelDetailsView.swift; sourceTree = "<group>"; };
-		B9BEE6052A732014008B0DEC /* AddNewTravelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewTravelView.swift; sourceTree = "<group>"; };
-		B9BEE6082A732DD7008B0DEC /* PHPickerCoordinator .swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PHPickerCoordinator .swift"; sourceTree = "<group>"; };
-		B9BEE6092A732DD7008B0DEC /* ImagePickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePickerView.swift; sourceTree = "<group>"; };
+		05C6AA432789D06B009FFBE8 /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
+		05C6AA442789D06B009FFBE8 /* Ikimasho.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ikimasho.swift; sourceTree = "<group>"; };
+		05C6AA452789D06B009FFBE8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		05C6AA462789D06B009FFBE8 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		05C6AA472789D06C009FFBE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		05C6AA4C2789D06C009FFBE8 /* Ikimasho.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ikimasho.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		05C6AA522789D06C009FFBE8 /* Ikimasho.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ikimasho.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		05C6AA542789D06C009FFBE8 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		05C6AA672789D07A009FFBE8 /* AddDestination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDestination.swift; sourceTree = "<group>"; };
+		05C6AA822789D9B7009FFBE8 /* AddTravel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTravel.swift; sourceTree = "<group>"; };
+		05C6AA852789D9FE009FFBE8 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		05C6AA912789EA4C009FFBE8 /* TravelDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelDetailCell.swift; sourceTree = "<group>"; };
+		2E9439250DBBC7193E461194 /* Pods-Ikimasho (iOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ikimasho (iOS).release.xcconfig"; path = "Target Support Files/Pods-Ikimasho (iOS)/Pods-Ikimasho (iOS).release.xcconfig"; sourceTree = "<group>"; };
+		425AB9B9DA3F642ADA456480 /* Pods_Ikimasho__macOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ikimasho__macOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		487687E9AE6410F54D0FF3B1 /* Pods-Ikimasho (macOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ikimasho (macOS).debug.xcconfig"; path = "Target Support Files/Pods-Ikimasho (macOS)/Pods-Ikimasho (macOS).debug.xcconfig"; sourceTree = "<group>"; };
+		5D5D45A65F38120794B6374E /* Pods_Ikimasho__iOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ikimasho__iOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		852201D6BDADF10EA5BEE974 /* Pods-Ikimasho (macOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ikimasho (macOS).release.xcconfig"; path = "Target Support Files/Pods-Ikimasho (macOS)/Pods-Ikimasho (macOS).release.xcconfig"; sourceTree = "<group>"; };
+		AA20636E60B148FEC0012C65 /* Pods-Ikimasho (iOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ikimasho (iOS).debug.xcconfig"; path = "Target Support Files/Pods-Ikimasho (iOS)/Pods-Ikimasho (iOS).debug.xcconfig"; sourceTree = "<group>"; };
+		B987DC232A73E93C0019A93E /* TravelDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelDetailsView.swift; sourceTree = "<group>"; };
+		B98F47962A74447F00908946 /* Destination+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Destination+CoreDataClass.swift"; sourceTree = "<group>"; };
+		B98F47972A74447F00908946 /* Destination+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Destination+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		B98F479C2A7447FC00908946 /* TextFieldView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
+		B98F47A22A745AC500908946 /* SplashscreenAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashscreenAnimation.swift; sourceTree = "<group>"; };
+		B98F47A42A745ACB00908946 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		B98F47A62A745ACF00908946 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		B98F47A82A745BAB00908946 /* WelcomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B9BEE5C62A72FD5B008B0DEC /* Frameworks */ = {
+		05C6AA492789D06C009FFBE8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9BEE5E12A72FDD5008B0DEC /* Lottie in Frameworks */,
+				C91044A9467DDDC0C067F8E0 /* Pods_Ikimasho__iOS_.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05C6AA4F2789D06C009FFBE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E01C1627AB998356476DF3A /* Pods_Ikimasho__macOS_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B9BEE5C02A72FD5B008B0DEC = {
+		05C6AA3C2789D06B009FFBE8 = {
 			isa = PBXGroup;
 			children = (
-				B9BEE5CC2A72FD5B008B0DEC /* IkimashoApp.swift */,
-				B9BEE5CB2A72FD5B008B0DEC /* Ikimasho */,
-				B9BEE5CA2A72FD5B008B0DEC /* Products */,
+				05C6AA412789D06B009FFBE8 /* Shared */,
+				05C6AA532789D06C009FFBE8 /* macOS */,
+				05C6AA4D2789D06C009FFBE8 /* Products */,
+				450B2720B634EFEB08FB6413 /* Pods */,
+				7B4D9E3F7E752193190D4E56 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		B9BEE5CA2A72FD5B008B0DEC /* Products */ = {
+		05C6AA412789D06B009FFBE8 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				B9BEE5C92A72FD5B008B0DEC /* Ikimasho.app */,
+				B98F47962A74447F00908946 /* Destination+CoreDataClass.swift */,
+				B98F47972A74447F00908946 /* Destination+CoreDataProperties.swift */,
+				B98F47A12A745ABB00908946 /* Launchscreen */,
+				05C6AA442789D06B009FFBE8 /* Ikimasho.swift */,
+				05C6AA452789D06B009FFBE8 /* ContentView.swift */,
+				05C6AA912789EA4C009FFBE8 /* TravelDetailCell.swift */,
+				B98F479C2A7447FC00908946 /* TextFieldView.swift */,
+				05C6AA672789D07A009FFBE8 /* AddDestination.swift */,
+				05C6AA822789D9B7009FFBE8 /* AddTravel.swift */,
+				05C6AA852789D9FE009FFBE8 /* ImagePicker.swift */,
+				B987DC232A73E93C0019A93E /* TravelDetailsView.swift */,
+				05C6AA462789D06B009FFBE8 /* Persistence.swift */,
+				05C6AA472789D06C009FFBE8 /* Assets.xcassets */,
+				05C6AA422789D06B009FFBE8 /* Ikimasho.xcdatamodeld */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		05C6AA4D2789D06C009FFBE8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05C6AA4C2789D06C009FFBE8 /* Ikimasho.app */,
+				05C6AA522789D06C009FFBE8 /* Ikimasho.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B9BEE5CB2A72FD5B008B0DEC /* Ikimasho */ = {
+		05C6AA532789D06C009FFBE8 /* macOS */ = {
 			isa = PBXGroup;
 			children = (
-				B9BEE5F32A7301CA008B0DEC /* Legacy */,
-				B9BEE5F22A7301B4008B0DEC /* PersistenceFIles */,
-				B9BEE5EC2A73014A008B0DEC /* Scene */,
-				B9BEE5D02A72FD5C008B0DEC /* Assets.xcassets */,
-				B9BEE5D22A72FD5C008B0DEC /* Preview Content */,
+				05C6AA542789D06C009FFBE8 /* macOS.entitlements */,
 			);
-			path = Ikimasho;
+			path = macOS;
 			sourceTree = "<group>";
 		};
-		B9BEE5D22A72FD5C008B0DEC /* Preview Content */ = {
+		450B2720B634EFEB08FB6413 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B9BEE5D32A72FD5C008B0DEC /* Preview Assets.xcassets */,
+				AA20636E60B148FEC0012C65 /* Pods-Ikimasho (iOS).debug.xcconfig */,
+				2E9439250DBBC7193E461194 /* Pods-Ikimasho (iOS).release.xcconfig */,
+				487687E9AE6410F54D0FF3B1 /* Pods-Ikimasho (macOS).debug.xcconfig */,
+				852201D6BDADF10EA5BEE974 /* Pods-Ikimasho (macOS).release.xcconfig */,
 			);
-			path = "Preview Content";
+			path = Pods;
 			sourceTree = "<group>";
 		};
-		B9BEE5E22A72FDDC008B0DEC /* LaunchScreen */ = {
+		7B4D9E3F7E752193190D4E56 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B9BEE5EA2A72FE61008B0DEC /* Launch Screen.storyboard */,
-				B9BEE5E72A72FE38008B0DEC /* Lottie */,
+				5D5D45A65F38120794B6374E /* Pods_Ikimasho__iOS_.framework */,
+				425AB9B9DA3F642ADA456480 /* Pods_Ikimasho__macOS_.framework */,
 			);
-			path = LaunchScreen;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		B9BEE5E72A72FE38008B0DEC /* Lottie */ = {
+		B98F47A12A745ABB00908946 /* Launchscreen */ = {
 			isa = PBXGroup;
 			children = (
-				B9BEE5E82A72FE45008B0DEC /* data.json */,
-				B9BEE5E32A72FDF2008B0DEC /* SplashscreenAnimation.swift */,
+				B98F47A82A745BAB00908946 /* WelcomeView.swift */,
+				B98F47A62A745ACF00908946 /* Launch Screen.storyboard */,
+				B98F47A42A745ACB00908946 /* data.json */,
+				B98F47A22A745AC500908946 /* SplashscreenAnimation.swift */,
 			);
-			path = Lottie;
-			sourceTree = "<group>";
-		};
-		B9BEE5EC2A73014A008B0DEC /* Scene */ = {
-			isa = PBXGroup;
-			children = (
-				B9BEE6002A7315E4008B0DEC /* Travels */,
-				B9BEE5FB2A730994008B0DEC /* UI */,
-				B9BEE5F82A7307D1008B0DEC /* Action */,
-				B9BEE5F52A730485008B0DEC /* Destinations */,
-				B9BEE5F42A7302E2008B0DEC /* Home */,
-				B9BEE5E22A72FDDC008B0DEC /* LaunchScreen */,
-				B9BEE5ED2A730150008B0DEC /* WelcomePage */,
-			);
-			path = Scene;
-			sourceTree = "<group>";
-		};
-		B9BEE5ED2A730150008B0DEC /* WelcomePage */ = {
-			isa = PBXGroup;
-			children = (
-				B9BEE5CE2A72FD5B008B0DEC /* ContentView.swift */,
-			);
-			path = WelcomePage;
-			sourceTree = "<group>";
-		};
-		B9BEE5F22A7301B4008B0DEC /* PersistenceFIles */ = {
-			isa = PBXGroup;
-			children = (
-				B9BEE5F02A73019C008B0DEC /* MyPersistenceController.swift */,
-				B9BEE5D72A72FD5C008B0DEC /* Ikimasho.xcdatamodeld */,
-				B987DC192A73C0660019A93E /* Destination+CoreDataClass.swift */,
-				B987DC1A2A73C0660019A93E /* Destination+CoreDataProperties.swift */,
-				B987DC1B2A73C0660019A93E /* Travel+CoreDataClass.swift */,
-				B987DC1C2A73C0660019A93E /* Travel+CoreDataProperties.swift */,
-				B9BEE60C2A733B23008B0DEC /* Extensions */,
-				B9BEE6072A732DC9008B0DEC /* Representable */,
-			);
-			path = PersistenceFIles;
-			sourceTree = "<group>";
-		};
-		B9BEE5F32A7301CA008B0DEC /* Legacy */ = {
-			isa = PBXGroup;
-			children = (
-				B9BEE5D52A72FD5C008B0DEC /* Persistence.swift */,
-			);
-			path = Legacy;
-			sourceTree = "<group>";
-		};
-		B9BEE5F42A7302E2008B0DEC /* Home */ = {
-			isa = PBXGroup;
-			children = (
-				B9BEE5E52A72FE2B008B0DEC /* HomeScreenView.swift */,
-			);
-			path = Home;
-			sourceTree = "<group>";
-		};
-		B9BEE5F52A730485008B0DEC /* Destinations */ = {
-			isa = PBXGroup;
-			children = (
-				B9BEE5F62A73049A008B0DEC /* DestinationView.swift */,
-			);
-			path = Destinations;
-			sourceTree = "<group>";
-		};
-		B9BEE5F82A7307D1008B0DEC /* Action */ = {
-			isa = PBXGroup;
-			children = (
-				B9BEE5F92A7307DB008B0DEC /* AddNewDestinationView.swift */,
-				B9BEE6052A732014008B0DEC /* AddNewTravelView.swift */,
-			);
-			path = Action;
-			sourceTree = "<group>";
-		};
-		B9BEE5FB2A730994008B0DEC /* UI */ = {
-			isa = PBXGroup;
-			children = (
-				B9BEE5FC2A7309A8008B0DEC /* TextFieldView.swift */,
-			);
-			path = UI;
-			sourceTree = "<group>";
-		};
-		B9BEE6002A7315E4008B0DEC /* Travels */ = {
-			isa = PBXGroup;
-			children = (
-				B9BEE6012A731BA6008B0DEC /* TravelDetailsView.swift */,
-				B987DC212A73CBB10019A93E /* TravelDetailsCell.swift */,
-			);
-			path = Travels;
-			sourceTree = "<group>";
-		};
-		B9BEE6072A732DC9008B0DEC /* Representable */ = {
-			isa = PBXGroup;
-			children = (
-				B9BEE6082A732DD7008B0DEC /* PHPickerCoordinator .swift */,
-				B9BEE6092A732DD7008B0DEC /* ImagePickerView.swift */,
-			);
-			path = Representable;
-			sourceTree = "<group>";
-		};
-		B9BEE60C2A733B23008B0DEC /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Extensions;
+			path = Launchscreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B9BEE5C82A72FD5B008B0DEC /* Ikimasho */ = {
+		05C6AA4B2789D06C009FFBE8 /* Ikimasho (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B9BEE5DC2A72FD5C008B0DEC /* Build configuration list for PBXNativeTarget "Ikimasho" */;
+			buildConfigurationList = 05C6AA612789D06C009FFBE8 /* Build configuration list for PBXNativeTarget "Ikimasho (iOS)" */;
 			buildPhases = (
-				B9BEE5C52A72FD5B008B0DEC /* Sources */,
-				B9BEE5C62A72FD5B008B0DEC /* Frameworks */,
-				B9BEE5C72A72FD5B008B0DEC /* Resources */,
+				C92DBD9D643BEB269CF6E150 /* [CP] Check Pods Manifest.lock */,
+				05C6AA482789D06C009FFBE8 /* Sources */,
+				05C6AA492789D06C009FFBE8 /* Frameworks */,
+				05C6AA4A2789D06C009FFBE8 /* Resources */,
+				F242FFD29A3AD29400B6C446 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Ikimasho;
+			name = "Ikimasho (iOS)";
 			packageProductDependencies = (
-				B9BEE5E02A72FDD5008B0DEC /* Lottie */,
 			);
-			productName = Ikimasho;
-			productReference = B9BEE5C92A72FD5B008B0DEC /* Ikimasho.app */;
+			productName = "CD_One_To_Many_Relationship (iOS)";
+			productReference = 05C6AA4C2789D06C009FFBE8 /* Ikimasho.app */;
+			productType = "com.apple.product-type.application";
+		};
+		05C6AA512789D06C009FFBE8 /* Ikimasho (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05C6AA642789D06C009FFBE8 /* Build configuration list for PBXNativeTarget "Ikimasho (macOS)" */;
+			buildPhases = (
+				8EE747600F0DEC958BB85260 /* [CP] Check Pods Manifest.lock */,
+				05C6AA4E2789D06C009FFBE8 /* Sources */,
+				05C6AA4F2789D06C009FFBE8 /* Frameworks */,
+				05C6AA502789D06C009FFBE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ikimasho (macOS)";
+			productName = "CD_One_To_Many_Relationship (macOS)";
+			productReference = 05C6AA522789D06C009FFBE8 /* Ikimasho.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		B9BEE5C12A72FD5B008B0DEC /* Project object */ = {
+		05C6AA3D2789D06B009FFBE8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1430;
+				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					B9BEE5C82A72FD5B008B0DEC = {
-						CreatedOnToolsVersion = 14.3.1;
+					05C6AA4B2789D06C009FFBE8 = {
+						CreatedOnToolsVersion = 13.2;
+					};
+					05C6AA512789D06C009FFBE8 = {
+						CreatedOnToolsVersion = 13.2;
 					};
 				};
 			};
-			buildConfigurationList = B9BEE5C42A72FD5B008B0DEC /* Build configuration list for PBXProject "Ikimasho" */;
-			compatibilityVersion = "Xcode 14.0";
+			buildConfigurationList = 05C6AA402789D06B009FFBE8 /* Build configuration list for PBXProject "Ikimasho" */;
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = B9BEE5C02A72FD5B008B0DEC;
+			mainGroup = 05C6AA3C2789D06B009FFBE8;
 			packageReferences = (
-				B9BEE5DF2A72FDD5008B0DEC /* XCRemoteSwiftPackageReference "lottie-ios" */,
 			);
-			productRefGroup = B9BEE5CA2A72FD5B008B0DEC /* Products */;
+			productRefGroup = 05C6AA4D2789D06C009FFBE8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B9BEE5C82A72FD5B008B0DEC /* Ikimasho */,
+				05C6AA4B2789D06C009FFBE8 /* Ikimasho (iOS) */,
+				05C6AA512789D06C009FFBE8 /* Ikimasho (macOS) */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B9BEE5C72A72FD5B008B0DEC /* Resources */ = {
+		05C6AA4A2789D06C009FFBE8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9BEE5D42A72FD5C008B0DEC /* Preview Assets.xcassets in Resources */,
-				B9BEE5E92A72FE45008B0DEC /* data.json in Resources */,
-				B9BEE5EB2A72FE61008B0DEC /* Launch Screen.storyboard in Resources */,
-				B9BEE5D12A72FD5C008B0DEC /* Assets.xcassets in Resources */,
+				05C6AA5D2789D06C009FFBE8 /* Assets.xcassets in Resources */,
+				B98F47A52A745ACB00908946 /* data.json in Resources */,
+				B98F47A72A745ACF00908946 /* Launch Screen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05C6AA502789D06C009FFBE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05C6AA5E2789D06C009FFBE8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8EE747600F0DEC958BB85260 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ikimasho (macOS)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C92DBD9D643BEB269CF6E150 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ikimasho (iOS)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F242FFD29A3AD29400B6C446 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ikimasho (iOS)/Pods-Ikimasho (iOS)-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ikimasho (iOS)/Pods-Ikimasho (iOS)-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Ikimasho (iOS)/Pods-Ikimasho (iOS)-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		B9BEE5C52A72FD5B008B0DEC /* Sources */ = {
+		05C6AA482789D06C009FFBE8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9BEE5D62A72FD5C008B0DEC /* Persistence.swift in Sources */,
-				B987DC222A73CBB10019A93E /* TravelDetailsCell.swift in Sources */,
-				B9BEE60A2A732DD7008B0DEC /* PHPickerCoordinator .swift in Sources */,
-				B987DC1D2A73C0660019A93E /* Destination+CoreDataClass.swift in Sources */,
-				B9BEE5F12A73019C008B0DEC /* MyPersistenceController.swift in Sources */,
-				B987DC1E2A73C0660019A93E /* Destination+CoreDataProperties.swift in Sources */,
-				B9BEE5CF2A72FD5B008B0DEC /* ContentView.swift in Sources */,
-				B9BEE5E42A72FDF2008B0DEC /* SplashscreenAnimation.swift in Sources */,
-				B9BEE6022A731BA6008B0DEC /* TravelDetailsView.swift in Sources */,
-				B987DC1F2A73C0660019A93E /* Travel+CoreDataClass.swift in Sources */,
-				B9BEE60B2A732DD7008B0DEC /* ImagePickerView.swift in Sources */,
-				B9BEE5FA2A7307DB008B0DEC /* AddNewDestinationView.swift in Sources */,
-				B9BEE5E62A72FE2B008B0DEC /* HomeScreenView.swift in Sources */,
-				B9BEE6062A732014008B0DEC /* AddNewTravelView.swift in Sources */,
-				B987DC202A73C0660019A93E /* Travel+CoreDataProperties.swift in Sources */,
-				B9BEE5FD2A7309A8008B0DEC /* TextFieldView.swift in Sources */,
-				B9BEE5D92A72FD5C008B0DEC /* Ikimasho.xcdatamodeld in Sources */,
-				B9BEE5F72A73049A008B0DEC /* DestinationView.swift in Sources */,
-				B9BEE5CD2A72FD5B008B0DEC /* IkimashoApp.swift in Sources */,
+				05C6AA552789D06C009FFBE8 /* Ikimasho.xcdatamodeld in Sources */,
+				05C6AA5B2789D06C009FFBE8 /* Persistence.swift in Sources */,
+				B98F479D2A7447FC00908946 /* TextFieldView.swift in Sources */,
+				05C6AA682789D07A009FFBE8 /* AddDestination.swift in Sources */,
+				05C6AA922789EA4C009FFBE8 /* TravelDetailCell.swift in Sources */,
+				B98F479A2A74447F00908946 /* Destination+CoreDataClass.swift in Sources */,
+				05C6AA862789D9FE009FFBE8 /* ImagePicker.swift in Sources */,
+				05C6AA572789D06C009FFBE8 /* Ikimasho.swift in Sources */,
+				05C6AA592789D06C009FFBE8 /* ContentView.swift in Sources */,
+				B98F479B2A74447F00908946 /* Destination+CoreDataProperties.swift in Sources */,
+				B98F47A32A745AC500908946 /* SplashscreenAnimation.swift in Sources */,
+				B987DC242A73E93C0019A93E /* TravelDetailsView.swift in Sources */,
+				05C6AA832789D9B7009FFBE8 /* AddTravel.swift in Sources */,
+				B98F47A92A745BAB00908946 /* WelcomeView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05C6AA4E2789D06C009FFBE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05C6AA562789D06C009FFBE8 /* Ikimasho.xcdatamodeld in Sources */,
+				05C6AA5C2789D06C009FFBE8 /* Persistence.swift in Sources */,
+				05C6AA692789D07A009FFBE8 /* AddDestination.swift in Sources */,
+				05C6AA932789EA4C009FFBE8 /* TravelDetailCell.swift in Sources */,
+				05C6AA872789D9FE009FFBE8 /* ImagePicker.swift in Sources */,
+				05C6AA582789D06C009FFBE8 /* Ikimasho.swift in Sources */,
+				05C6AA5A2789D06C009FFBE8 /* ContentView.swift in Sources */,
+				B987DC252A73E93C0019A93E /* TravelDetailsView.swift in Sources */,
+				05C6AA842789D9B8009FFBE8 /* AddTravel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		B9BEE5DA2A72FD5C008B0DEC /* Debug */ = {
+		05C6AA5F2789D06C009FFBE8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -366,6 +408,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -383,23 +426,22 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		B9BEE5DB2A72FD5C008B0DEC /* Release */ = {
+		05C6AA602789D06C009FFBE8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -426,6 +468,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -437,138 +480,182 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		05C6AA622789D06C009FFBE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA20636E60B148FEC0012C65 /* Pods-Ikimasho (iOS).debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BP4DYC4UP8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keltoumb.ikimasho4;
+				PRODUCT_NAME = Ikimasho;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		05C6AA632789D06C009FFBE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E9439250DBBC7193E461194 /* Pods-Ikimasho (iOS).release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BP4DYC4UP8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keltoumb.ikimasho4;
+				PRODUCT_NAME = Ikimasho;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		B9BEE5DD2A72FD5C008B0DEC /* Debug */ = {
+		05C6AA652789D06C009FFBE8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 487687E9AE6410F54D0FF3B1 /* Pods-Ikimasho (macOS).debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Ikimasho/Preview Content\"";
-				DEVELOPMENT_TEAM = BP4DYC4UP8;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = KN3ZJQBK7N;
+				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
+					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.keltoumBelkadi.Ikimasho;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.haaris.CD-One-To-Many-Relationship";
+				PRODUCT_NAME = Ikimasho;
+				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
-		B9BEE5DE2A72FD5C008B0DEC /* Release */ = {
+		05C6AA662789D06C009FFBE8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 852201D6BDADF10EA5BEE974 /* Pods-Ikimasho (macOS).release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Ikimasho/Preview Content\"";
-				DEVELOPMENT_TEAM = BP4DYC4UP8;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = KN3ZJQBK7N;
+				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
+					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.keltoumBelkadi.Ikimasho;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.haaris.CD-One-To-Many-Relationship";
+				PRODUCT_NAME = Ikimasho;
+				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B9BEE5C42A72FD5B008B0DEC /* Build configuration list for PBXProject "Ikimasho" */ = {
+		05C6AA402789D06B009FFBE8 /* Build configuration list for PBXProject "Ikimasho" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B9BEE5DA2A72FD5C008B0DEC /* Debug */,
-				B9BEE5DB2A72FD5C008B0DEC /* Release */,
+				05C6AA5F2789D06C009FFBE8 /* Debug */,
+				05C6AA602789D06C009FFBE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B9BEE5DC2A72FD5C008B0DEC /* Build configuration list for PBXNativeTarget "Ikimasho" */ = {
+		05C6AA612789D06C009FFBE8 /* Build configuration list for PBXNativeTarget "Ikimasho (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B9BEE5DD2A72FD5C008B0DEC /* Debug */,
-				B9BEE5DE2A72FD5C008B0DEC /* Release */,
+				05C6AA622789D06C009FFBE8 /* Debug */,
+				05C6AA632789D06C009FFBE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05C6AA642789D06C009FFBE8 /* Build configuration list for PBXNativeTarget "Ikimasho (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05C6AA652789D06C009FFBE8 /* Debug */,
+				05C6AA662789D06C009FFBE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCRemoteSwiftPackageReference section */
-		B9BEE5DF2A72FDD5008B0DEC /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/airbnb/lottie-ios";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 4.0.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		B9BEE5E02A72FDD5008B0DEC /* Lottie */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = B9BEE5DF2A72FDD5008B0DEC /* XCRemoteSwiftPackageReference "lottie-ios" */;
-			productName = Lottie;
-		};
-/* End XCSwiftPackageProductDependency section */
-
 /* Begin XCVersionGroup section */
-		B9BEE5D72A72FD5C008B0DEC /* Ikimasho.xcdatamodeld */ = {
+		05C6AA422789D06B009FFBE8 /* Ikimasho.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				B9BEE5D82A72FD5C008B0DEC /* Ikimasho.xcdatamodel */,
+				05C6AA432789D06B009FFBE8 /* Shared.xcdatamodel */,
 			);
-			currentVersion = B9BEE5D82A72FD5C008B0DEC /* Ikimasho.xcdatamodel */;
+			currentVersion = 05C6AA432789D06B009FFBE8 /* Shared.xcdatamodel */;
 			path = Ikimasho.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
 	};
-	rootObject = B9BEE5C12A72FD5B008B0DEC /* Project object */;
+	rootObject = 05C6AA3D2789D06B009FFBE8 /* Project object */;
 }

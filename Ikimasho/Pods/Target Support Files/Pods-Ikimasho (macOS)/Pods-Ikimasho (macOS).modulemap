@@ -1,0 +1,6 @@
+framework module Pods_Ikimasho__macOS_ {
+  umbrella header "Pods-Ikimasho (macOS)-umbrella.h"
+
+  export *
+  module * { export * }
+}
