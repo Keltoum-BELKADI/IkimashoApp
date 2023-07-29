@@ -36,7 +36,7 @@ struct TravelEditView: View {
             List {
                 Section {
                     VStack{
-                        Image(uiImage: UIImage(data: travel.townImageData ?? Data()) ?? UIImage())
+                        Image(uiImage: image)
                             .resizable()
                             .scaledToFit()
                             .edgesIgnoringSafeArea(.all)
