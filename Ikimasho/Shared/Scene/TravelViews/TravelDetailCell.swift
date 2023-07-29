@@ -43,7 +43,7 @@ struct TravelDetailCell: View {
                         Label("Delete Employee",systemImage: "trash")
                     })
                 }
-            }
+            }.environment(\.locale, Locale(identifier: "fr"))
     }
 
     private func deleteTravel(){

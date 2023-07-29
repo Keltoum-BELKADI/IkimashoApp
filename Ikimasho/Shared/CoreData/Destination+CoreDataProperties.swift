@@ -24,7 +24,7 @@ extension Destination {
     public var travel: [Travel]{
         let setOfTravel = destionationToTravel
         return setOfTravel!.sorted{
-            $0.id > $1.id
+            $0.date ?? "" < $1.date ?? ""
         }
     }
 

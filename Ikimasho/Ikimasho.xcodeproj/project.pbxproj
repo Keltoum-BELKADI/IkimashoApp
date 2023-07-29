@@ -14,7 +14,6 @@
 		05C6AA592789D06C009FFBE8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C6AA452789D06B009FFBE8 /* ContentView.swift */; };
 		05C6AA5A2789D06C009FFBE8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C6AA452789D06B009FFBE8 /* ContentView.swift */; };
 		05C6AA5B2789D06C009FFBE8 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C6AA462789D06B009FFBE8 /* Persistence.swift */; };
-		05C6AA5C2789D06C009FFBE8 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C6AA462789D06B009FFBE8 /* Persistence.swift */; };
 		05C6AA5D2789D06C009FFBE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05C6AA472789D06C009FFBE8 /* Assets.xcassets */; };
 		05C6AA5E2789D06C009FFBE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05C6AA472789D06C009FFBE8 /* Assets.xcassets */; };
 		05C6AA682789D07A009FFBE8 /* AddDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C6AA672789D07A009FFBE8 /* AddDestination.swift */; };
@@ -28,6 +27,8 @@
 		5E01C1627AB998356476DF3A /* Pods_Ikimasho__macOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 425AB9B9DA3F642ADA456480 /* Pods_Ikimasho__macOS_.framework */; };
 		B987DC242A73E93C0019A93E /* TravelDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B987DC232A73E93C0019A93E /* TravelDetailsView.swift */; };
 		B987DC252A73E93C0019A93E /* TravelDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B987DC232A73E93C0019A93E /* TravelDetailsView.swift */; };
+		B98D32C32A757B420052DF61 /* TravelEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98D32C22A757B420052DF61 /* TravelEditView.swift */; };
+		B98D32C42A757B420052DF61 /* TravelEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98D32C22A757B420052DF61 /* TravelEditView.swift */; };
 		B98F479A2A74447F00908946 /* Destination+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98F47962A74447F00908946 /* Destination+CoreDataClass.swift */; };
 		B98F479B2A74447F00908946 /* Destination+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98F47972A74447F00908946 /* Destination+CoreDataProperties.swift */; };
 		B98F479D2A7447FC00908946 /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98F479C2A7447FC00908946 /* TextFieldView.swift */; };
@@ -58,6 +59,7 @@
 		852201D6BDADF10EA5BEE974 /* Pods-Ikimasho (macOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ikimasho (macOS).release.xcconfig"; path = "Target Support Files/Pods-Ikimasho (macOS)/Pods-Ikimasho (macOS).release.xcconfig"; sourceTree = "<group>"; };
 		AA20636E60B148FEC0012C65 /* Pods-Ikimasho (iOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ikimasho (iOS).debug.xcconfig"; path = "Target Support Files/Pods-Ikimasho (iOS)/Pods-Ikimasho (iOS).debug.xcconfig"; sourceTree = "<group>"; };
 		B987DC232A73E93C0019A93E /* TravelDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelDetailsView.swift; sourceTree = "<group>"; };
+		B98D32C22A757B420052DF61 /* TravelEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelEditView.swift; sourceTree = "<group>"; };
 		B98F47962A74447F00908946 /* Destination+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Destination+CoreDataClass.swift"; sourceTree = "<group>"; };
 		B98F47972A74447F00908946 /* Destination+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Destination+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		B98F479C2A7447FC00908946 /* TextFieldView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
@@ -101,20 +103,12 @@
 		05C6AA412789D06B009FFBE8 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				B98F47962A74447F00908946 /* Destination+CoreDataClass.swift */,
-				B98F47972A74447F00908946 /* Destination+CoreDataProperties.swift */,
-				B98F47A12A745ABB00908946 /* Launchscreen */,
 				05C6AA442789D06B009FFBE8 /* Ikimasho.swift */,
-				05C6AA452789D06B009FFBE8 /* ContentView.swift */,
-				05C6AA912789EA4C009FFBE8 /* TravelDetailCell.swift */,
-				B98F479C2A7447FC00908946 /* TextFieldView.swift */,
-				05C6AA672789D07A009FFBE8 /* AddDestination.swift */,
-				05C6AA822789D9B7009FFBE8 /* AddTravel.swift */,
-				05C6AA852789D9FE009FFBE8 /* ImagePicker.swift */,
-				B987DC232A73E93C0019A93E /* TravelDetailsView.swift */,
-				05C6AA462789D06B009FFBE8 /* Persistence.swift */,
-				05C6AA472789D06C009FFBE8 /* Assets.xcassets */,
-				05C6AA422789D06B009FFBE8 /* Ikimasho.xcdatamodeld */,
+				B98D32CB2A7590690052DF61 /* Ressources */,
+				B98D32CA2A75905A0052DF61 /* UI */,
+				B98D32C92A7590490052DF61 /* Representable */,
+				B98D32C82A7590300052DF61 /* CoreData */,
+				B98D32CC2A75909A0052DF61 /* Scene */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -154,6 +148,79 @@
 				425AB9B9DA3F642ADA456480 /* Pods_Ikimasho__macOS_.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B98D32C52A758FDF0052DF61 /* TravelViews */ = {
+			isa = PBXGroup;
+			children = (
+				05C6AA912789EA4C009FFBE8 /* TravelDetailCell.swift */,
+				B987DC232A73E93C0019A93E /* TravelDetailsView.swift */,
+				B98D32C22A757B420052DF61 /* TravelEditView.swift */,
+			);
+			path = TravelViews;
+			sourceTree = "<group>";
+		};
+		B98D32C62A7590030052DF61 /* ActionsViews */ = {
+			isa = PBXGroup;
+			children = (
+				05C6AA822789D9B7009FFBE8 /* AddTravel.swift */,
+				05C6AA672789D07A009FFBE8 /* AddDestination.swift */,
+			);
+			path = ActionsViews;
+			sourceTree = "<group>";
+		};
+		B98D32C72A75901B0052DF61 /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				05C6AA452789D06B009FFBE8 /* ContentView.swift */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		B98D32C82A7590300052DF61 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				B98F47972A74447F00908946 /* Destination+CoreDataProperties.swift */,
+				05C6AA462789D06B009FFBE8 /* Persistence.swift */,
+				B98F47962A74447F00908946 /* Destination+CoreDataClass.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		B98D32C92A7590490052DF61 /* Representable */ = {
+			isa = PBXGroup;
+			children = (
+				05C6AA852789D9FE009FFBE8 /* ImagePicker.swift */,
+			);
+			path = Representable;
+			sourceTree = "<group>";
+		};
+		B98D32CA2A75905A0052DF61 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				B98F479C2A7447FC00908946 /* TextFieldView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		B98D32CB2A7590690052DF61 /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				05C6AA422789D06B009FFBE8 /* Ikimasho.xcdatamodeld */,
+				05C6AA472789D06C009FFBE8 /* Assets.xcassets */,
+			);
+			path = Ressources;
+			sourceTree = "<group>";
+		};
+		B98D32CC2A75909A0052DF61 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				B98D32C52A758FDF0052DF61 /* TravelViews */,
+				B98D32C62A7590030052DF61 /* ActionsViews */,
+				B98D32C72A75901B0052DF61 /* MainView */,
+				B98F47A12A745ABB00908946 /* Launchscreen */,
+			);
+			path = Scene;
 			sourceTree = "<group>";
 		};
 		B98F47A12A745ABB00908946 /* Launchscreen */ = {
@@ -338,6 +405,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B98D32C32A757B420052DF61 /* TravelEditView.swift in Sources */,
 				05C6AA552789D06C009FFBE8 /* Ikimasho.xcdatamodeld in Sources */,
 				05C6AA5B2789D06C009FFBE8 /* Persistence.swift in Sources */,
 				B98F479D2A7447FC00908946 /* TextFieldView.swift in Sources */,
@@ -359,8 +427,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B98D32C42A757B420052DF61 /* TravelEditView.swift in Sources */,
 				05C6AA562789D06C009FFBE8 /* Ikimasho.xcdatamodeld in Sources */,
-				05C6AA5C2789D06C009FFBE8 /* Persistence.swift in Sources */,
 				05C6AA692789D07A009FFBE8 /* AddDestination.swift in Sources */,
 				05C6AA932789EA4C009FFBE8 /* TravelDetailCell.swift in Sources */,
 				05C6AA872789D9FE009FFBE8 /* ImagePicker.swift in Sources */,
