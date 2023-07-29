@@ -10,11 +10,11 @@ import SwiftUI
 struct TravelDetailCell: View {
     @Environment(\.managedObjectContext) private var viewContext
     @ObservedObject var travel: Travel
-    
-    
+
     var body: some View {
             NavigationLink {
                 TravelDetailsView(travel: travel)
+                    .environment(\.locale, Locale(identifier: "fr"))
                     .background(Image("sky").resizable().ignoresSafeArea().opacity(0.4))
                     .scrollContentBackground(.hidden)
             } label: {

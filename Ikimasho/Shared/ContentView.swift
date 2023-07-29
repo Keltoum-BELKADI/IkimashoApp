@@ -30,6 +30,7 @@ struct ContentView: View {
                             List{
                                 ForEach(destination.travel){ travel in
                                     TravelDetailCell(travel: travel)
+                                        .environment(\.locale, Locale(identifier: "fr"))
                                 } .listRowBackground(Capsule().fill(Color.teal.gradient))
                             }
                             .background(Image("Background").resizable().ignoresSafeArea().opacity(0.5))
@@ -55,13 +56,13 @@ struct ContentView: View {
                         Button(action: {
                             addDestination.toggle()
                         }, label: {
-                            Label("Ajouter une destination",systemImage: "plus.circle")
+                            Label("Ajouter une destination",systemImage: "bag.fill.badge.plus")
                                 .foregroundColor(.green)
                         })
                         Button(action: {
                             addTravel.toggle()
                         }, label: {
-                            Label("Ajouter une étape ", systemImage: "note.text")
+                            Label("Ajouter une étape ", systemImage: "note.text.badge.plus")
                                 .foregroundColor(.black)
                         })
                     }
